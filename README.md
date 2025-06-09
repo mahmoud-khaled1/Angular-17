@@ -42,3 +42,20 @@ Here are some of the most commonly used decorators in Angular:</br>
 ![image](https://github.com/user-attachments/assets/3ca9202e-2bca-44c9-84d1-f9b1ac2d722e)
 
 
+### What is Interpolation in Angular?
+Interpolation in Angular is a way to bind data from your component class to your HTML template. </br>
+It allows you to display dynamic values in the view.
+
+It uses double curly braces syntax: {{ value }}
+
+### What is Property Binding in Angular?
+Property binding in Angular is a way to bind a value from the component class to an element’s property or attribute in the DOM.
+
+It uses square brackets ([]) around the HTML property: [property]="value"</br>
+✅ Example:</br>
+export class AppComponent {
+  imageUrl = 'https://example.com/logo.png';
+}</br>
+<img [src]="imageUrl"></br>
+![image](https://github.com/user-attachments/assets/25f2d8e9-b98e-4886-b168-56f644272863)
+
