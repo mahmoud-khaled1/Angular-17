@@ -30,3 +30,15 @@ Each child component focuses on a specific responsibility, and data can be passe
 Summary
 Component-Based Architecture in Angular helps you build clean, scalable, and maintainable web applications by breaking the UI into independent and reusable components. It's central to Angular’s design philosophy.
 
+### What is a decorator in Angular?
+In Angular, a decorator is a special kind of declaration that can be attached to classes, methods, properties, or parameters. Decorators add metadata to these elements, which Angular uses to understand how to process them.
+
+They are defined using the @ symbol followed by a function. Angular uses decorators extensively to define and configure components, services, modules, directives, and more.</br>
+Common Angular Decorators</br>
+Here are some of the most commonly used decorators in Angular:</br>
+![image](https://github.com/user-attachments/assets/86e81915-9a5e-4fed-b784-3def628276ab)
+</br>
+
+![image](https://github.com/user-attachments/assets/3ca9202e-2bca-44c9-84d1-f9b1ac2d722e)
+
+
