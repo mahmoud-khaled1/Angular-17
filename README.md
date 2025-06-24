@@ -58,4 +58,13 @@ export class AppComponent {
 }</br>
 <img [src]="imageUrl"></br>
 ![image](https://github.com/user-attachments/assets/25f2d8e9-b98e-4886-b168-56f644272863)
+</br>
+### What is Two-Way Data Binding in Angular?
+Two-way data binding is a mechanism in Angular that synchronizes data between the component (TypeScript) and the template (HTML), both ways:</br>
+When the user updates the input field, the value in the component is updated.</br>
+When the component variable changes, the view is also updated automatically.</br>
+How to Use Two-Way Data Binding ? Angular uses [(ngModel)] syntax for two-way data binding.
+![image](https://github.com/user-attachments/assets/db7baf40-4a3b-47c7-9817-9e088c6a460e)
+![image](https://github.com/user-attachments/assets/7f4e4cc2-36ff-4621-8654-d2da1c8e7e74)
+
 
