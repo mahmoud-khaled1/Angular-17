@@ -67,4 +67,30 @@ How to Use Two-Way Data Binding ? Angular uses [(ngModel)] syntax for two-way da
 ![image](https://github.com/user-attachments/assets/db7baf40-4a3b-47c7-9817-9e088c6a460e)
 ![image](https://github.com/user-attachments/assets/7f4e4cc2-36ff-4621-8654-d2da1c8e7e74)
 
+### What are Angular Directives?</br>
+In Angular, Directives are special instructions you can apply to elements in the DOM (HTML) to change their behavior or appearance.</br>
+They tell Angular to do something with the element — like hide it, repeat it, or apply logic to it.</br>
+#### 🔄 3 Main Types of Directives in Angular</br>
+1. Component Directives</br>
+Technically, Components are directives with a template.</br>
+They’re the most common kind — when you create a component, you're actually creating a directive.</br>
+✅ Example:</br>
+![image](https://github.com/user-attachments/assets/06badaa9-e428-4e03-827c-73d017dc4b61)
+
+2. Structural Directives</br>
+These change the structure of the DOM — like adding/removing elements.</br>
+✅ Common examples:</br>
+*ngIf – conditionally show elements</br>
+*ngFor – loop through a list</br>
+*ngSwitch – switch-case logic</br>
+✅ Example:
+![image](https://github.com/user-attachments/assets/7c2ba1bc-24e3-4cbb-b256-223188321eb0)
+
+3. Attribute Directives</br>
+These change the appearance or behavior of an element — without adding or removing it.</br>
+✅ Common examples:</br>
+ngClass – dynamically add classes</br>
+ngStyle – dynamically apply styles</br>
+✅ Example:</br>
+![image](https://github.com/user-attachments/assets/533b959a-556c-47ec-b330-5938cf18bd97)
 
