@@ -94,3 +94,17 @@ ngStyle – dynamically apply styles</br>
 ✅ Example:</br>
 ![image](https://github.com/user-attachments/assets/533b959a-556c-47ec-b330-5938cf18bd97)
 
+### Passing data between parent and child components </br>
+Passing data between parent and child components in Angular is a core part of component interaction. Here’s how you can do it clearly in both directions:</br>
+🔁 Parent ↔ Child Communication</br>
+✅ 1. Parent to Child: Using @Input()</br>
+Use @Input() in the child to receive data from the parent.</br>
+![image](https://github.com/user-attachments/assets/6a67c818-bed6-46c8-92fc-0efbb57ae97b)
+
+![image](https://github.com/user-attachments/assets/08314f38-bcfe-42bd-877b-f71c266cbbde)
+</br>
+✅ 2. Child to Parent: Using @Output() and EventEmitter</br>
+Use @Output() in the child to emit events back to the parent.</br>
+![image](https://github.com/user-attachments/assets/00cbce6c-36ae-4dd0-8e1b-26ec3f1006d8)
+![image](https://github.com/user-attachments/assets/de3fbc25-0b8f-401a-aa1c-a2b4859638f3)
+
