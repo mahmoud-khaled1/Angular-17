@@ -107,4 +107,31 @@ Use @Input() in the child to receive data from the parent.</br>
 Use @Output() in the child to emit events back to the parent.</br>
 ![image](https://github.com/user-attachments/assets/00cbce6c-36ae-4dd0-8e1b-26ec3f1006d8)
 ![image](https://github.com/user-attachments/assets/de3fbc25-0b8f-401a-aa1c-a2b4859638f3)
+</br>
+### Component Lifecycle Hooks
+Angular component lifecycle hooks are special methods you can implement in your component class to tap into key moments in the component’s life — from creation to destruction.
+Here's a full list of the most commonly used Angular lifecycle hooks, in their execution order:</br>
+<img width="909" height="358" alt="image" src="https://github.com/user-attachments/assets/f3be1ab9-abaf-4015-825f-63b46d8a8e75" />
+</br>
+<img width="915" height="375" alt="image" src="https://github.com/user-attachments/assets/d723f682-c77d-435b-89aa-8d31189b7803" />
+</br>
+<img width="909" height="368" alt="image" src="https://github.com/user-attachments/assets/a5e31567-2769-4612-88ec-b25db72ad1c2" />
+</br>
+<img width="905" height="323" alt="image" src="https://github.com/user-attachments/assets/e8c7ee3d-6f68-4b55-934d-1c58cf3a267b" />
+</br>
+<img width="907" height="326" alt="image" src="https://github.com/user-attachments/assets/5b89d074-5fd3-492c-82b8-1854022f78ca" />
+</br>
+<img width="899" height="329" alt="image" src="https://github.com/user-attachments/assets/3d41f275-055e-43c1-a798-2b1c35fd6cea" />
+</br>
+<img width="893" height="294" alt="image" src="https://github.com/user-attachments/assets/86c227b4-1a2e-4466-9b39-06e41adf3281" />
+</br>
+<img width="900" height="341" alt="image" src="https://github.com/user-attachments/assets/92ee36ff-7f34-490a-84b0-79886d144284" />
+</br>
+
+
+🔁 Summary: Lifecycle Execution Order
+ngOnChanges → ngOnInit → ngDoCheck →
+ngAfterContentInit → ngAfterContentChecked →
+ngAfterViewInit → ngAfterViewChecked →
+ngOnDestroy
 
