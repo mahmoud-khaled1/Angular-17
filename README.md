@@ -134,4 +134,12 @@ ngOnChanges → ngOnInit → ngDoCheck →
 ngAfterContentInit → ngAfterContentChecked →
 ngAfterViewInit → ngAfterViewChecked →
 ngOnDestroy
+</br>
+</br>
+### Angular Routing
+Angular Routing allows you to build Single Page Applications (SPAs) where navigation between views happens without reloading the page. Instead of the browser fetching new HTML from the server, Angular dynamically swaps components based on the route (URL path).</br>
+Defining Routes</br>
+<img width="885" height="662" alt="image" src="https://github.com/user-attachments/assets/8d45bb81-e28c-4259-8064-040c6a1a25ea" />
+<img width="841" height="713" alt="image" src="https://github.com/user-attachments/assets/75219615-3a8f-4584-937c-4c1181f2f473" />
+
 
