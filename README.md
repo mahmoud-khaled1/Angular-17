@@ -142,4 +142,11 @@ Defining Routes</br>
 <img width="885" height="662" alt="image" src="https://github.com/user-attachments/assets/8d45bb81-e28c-4259-8064-040c6a1a25ea" />
 <img width="841" height="713" alt="image" src="https://github.com/user-attachments/assets/75219615-3a8f-4584-937c-4c1181f2f473" />
 
+## What are Pipes in Angular? 
+In Angular, Pipes are a feature that lets you transform data directly in your templates.
+Think of them like filters or formatters: you give them a value, and they return a transformed value — without changing the underlying data in your component.
+<img width="1068" height="603" alt="image" src="https://github.com/user-attachments/assets/c301d755-77ec-4b01-9412-ebd0b39f19aa" />
+
+Example:
+<p>{{ 1234.5 | currency:'EUR':'symbol':'1.2-2' }}</p>
 
